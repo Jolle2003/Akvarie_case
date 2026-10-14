@@ -146,13 +146,13 @@
     
     
 }
-.coral_orange{
+.coral_red{
     position: absolute;
     bottom: 0;
-    right: 50%;
+    right: 10%;
     width: 100px;
     height: 280px;
-    scale: 1.2; /* Juster størrelsen efter behov */
+    scale: 1.8; /* Juster størrelsen efter behov */
 }
 
 .coral_lilla{
@@ -164,7 +164,14 @@
     scale: 1.2; /* Juster størrelsen efter behov */
 }
 
-    
+.coral_pink{
+    position: absolute;
+    bottom: -5%;
+    right: 83%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
 
 
 
