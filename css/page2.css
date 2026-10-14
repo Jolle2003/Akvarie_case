@@ -64,6 +64,13 @@
     scale: 0.5; /* Juster størrelsen efter behov */
 }
 
+.fang_fisken {
+    position: absolute;
+    top: 23%;
+    right: 35%;
+    scale: 0.5; /* Juster størrelsen efter behov */
+}
+
 
 .bobler2 {
     position: absolute;
@@ -79,9 +86,3 @@
     scale: 5; /* Juster størrelsen efter behov */
 }
 
-.bobler4 {
-    position: absolute;
-    top: 55%;
-    right: 60%;
-    scale: 5; /* Juster størrelsen efter behov */
-}
