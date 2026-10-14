@@ -59,30 +59,269 @@
 
 .Mal_en_fisk {
     position: absolute;
-    top: 23%;
-    right: 5%;
-    scale: 0.5; /* Juster størrelsen efter behov */
+    top: 5%;
+    right: -18.5%;
+    scale: 0.45; /* Juster størrelsen efter behov */
+    z-index: 100;
 }
 
 .fang_fisken {
     position: absolute;
-    top: 23%;
-    right: 35%;
-    scale: 0.5; /* Juster størrelsen efter behov */
+    top: 5%;
+    right: 7%;
+    scale: 0.45; /* Juster størrelsen efter behov */
+    z-index: 100;
 }
 
 
 .match_fisken {
     position: absolute;
-    top: 0.5%;
-    right: 5%;
-    scale: 0.5; /* Juster størrelsen efter behov */
+    top: 5%;
+    right: 32%;
+    scale: 0.45; /* Juster størrelsen efter behov */
+    z-index: 100;
 }
 
 .fiskefakta_boble {
     position: absolute;
-    top: 0.5%;
-    right: 35%;
-    scale: 0.5; /* Juster størrelsen efter behov */
+    top: 5%;
+    right: 57%;
+    scale: 0.45; /* Juster størrelsen efter behov */
+    z-index: 100;
 }
 
+.fish1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    scale: 1.0; /* Juster størrelsen efter behov */
+
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimLeft 12s linear infinite ;
+}
+
+.fish2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimRight 14s linear infinite ;
+
+}
+
+.fish3 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimRight 12s linear infinite ;
+
+}
+
+.fish4 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    scale: 1.2; /* Juster størrelsen efter behov */
+     /* animation: swim 10s linear infinite alternate; */
+    animation: swimLeft 10s linear infinite ;
+    z-index: 5;
+
+} 
+
+.fish5 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 10s linear infinite alternate; */
+    animation: swimRight 16s linear infinite ;
+
+} 
+
+
+
+.still_fish {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    scale: 1.5; /* Juster størrelsen efter behov */
+    transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
+}
+
+
+
+.tang_julie2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 600px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    z-index: 2;
+    
+}
+
+.snegl_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 50px;
+    height: 100px;
+    scale: 2.0; /* Juster størrelsen efter behov */
+    
+}
+
+.tang_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 200px;
+    height: 190px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; /* Sørg for, at tang er bag snegl */
+    
+}
+.tang_julie3 {
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    width: 200px;
+    height: 210px;
+    scale: 1.4; /* Juster størrelsen efter behov */
+    z-index: 0; /* Sørg for, at tang er bag snegl */
+    
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 77%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_lilleorange1 {
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 220px;
+    scale: 1.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange2 {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange3 {
+    position: absolute;
+    bottom: 0;
+    right: 37%;
+    width: 100px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange4 {
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    width: 100px;
+    height: 230px;
+    scale: 1.2; /* Juster størrelsen efter behov */  
+    z-index: 99; 
+}
+.coral_red1{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 100px;
+    height: 280px;
+    scale: 1.8; /* Juster størrelsen efter behov */
+    z-index: 999; 
+}
+.coral_red2{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    width: 100px;   
+    height: 280px;
+    scale: 0.3; /* Juster størrelsen efter behov */
+}
+.coral_red3{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    width: 100px;
+    height: 320px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+
+.coral_red4{
+    position: absolute;
+    bottom: 0;
+    right: 85%;
+    width: 100px;
+    height: 230px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+.coral_lilla1{
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_lilla2{
+    position: absolute;
+    bottom: 0;
+    right: 75%;
+    width: 100px;
+    height: 299px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+    z-index: 99;
+}   
+
+.coral_lilla3{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 100px;
+    height: 280px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; 
+}
+
+
+
+/* Fiskens svømmebevægelse */
+@keyframes swimLeft {
+    0% {
+       
+        transform: translateX(calc(100vw + 180px));
+    }
+
+    100% {
+       
+        transform: translateX(-200px);
+    }
+}
+
+/* Fiskens svømmebevægelse */
+@keyframes swimRight {
+    0% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        
+        transform: translateX(calc(100vw + 180px));
+    }
+}
