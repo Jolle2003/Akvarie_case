@@ -1,0 +1,213 @@
+<svg width="136" height="110" viewBox="0 0 136 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg { overflow: visible; }
+@keyframes kf_hale_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  5% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  10% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  15% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  20% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  25% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  30% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  35% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  40% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  45% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  55% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  60% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  65% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  75% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  80% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  85% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  90% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  95% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(0.7) scaleY(1) translate(-25.542px, -10.705px);
+  }
+  100% {
+    transform: translateY(51.065px) translate(25.542px, 10.705px) scaleX(1) scaleY(1) translate(-25.542px, -10.705px);
+  }
+}
+#hale {
+  transform-origin: 0 0;
+  animation: kf_hale_transform_0 2s linear infinite;
+}
+@keyframes kf_Vector_9_transform_0 {
+  0% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(71.584px) translateY(86.573px) translate(-4.323px, 4.244px) rotate(0rad) translate(4.323px, -4.244px) rotate(2.737rad) scaleX(1) scaleY(-1) skewX(0rad);
+  }
+  25% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(71.584px) translateY(86.573px) translate(-4.323px, 4.244px) rotate(0.157rad) translate(4.323px, -4.244px) rotate(2.737rad) scaleX(1) scaleY(-1) skewX(0rad);
+  }
+  50% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(71.584px) translateY(86.573px) translate(-4.323px, 4.244px) rotate(0rad) translate(4.323px, -4.244px) rotate(2.737rad) scaleX(1) scaleY(-1) skewX(0rad);
+  }
+  75% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(71.584px) translateY(86.573px) translate(-4.323px, 4.244px) rotate(0.157rad) translate(4.323px, -4.244px) rotate(2.737rad) scaleX(1) scaleY(-1) skewX(0rad);
+  }
+  100% {
+    transform: translateX(71.584px) translateY(86.573px) translate(-4.323px, 4.244px) rotate(0rad) translate(4.323px, -4.244px) rotate(2.737rad) scaleX(1) scaleY(-1) skewX(0rad);
+  }
+}
+#Vector_9 {
+  transform-origin: 0 0;
+  animation: kf_Vector_9_transform_0 2s linear infinite;
+}
+@keyframes kf___jne_venstre_transform_0 {
+  0% {
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(1) translate(-20.219px, -15.938px);
+  }
+  80.6% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(1) translate(-20.219px, -15.938px);
+  }
+  86.66% {
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(0) translate(-20.219px, -15.938px);
+  }
+  90.89% {
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(0) translate(-20.219px, -15.938px);
+  }
+  93.89% {
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(1) translate(-20.219px, -15.938px);
+  }
+  100% {
+    transform: translateX(-21.595px) translateY(-8.357px) translate(20.219px, 15.938px) scaleX(1) scaleY(1) translate(-20.219px, -15.938px);
+  }
+}
+#__jne_venstre {
+  transform-origin: 0 0;
+  animation: kf___jne_venstre_transform_0 2s linear infinite;
+}
+</style>
+<g id="Frame_34">
+<g id="fish" transform="translate(0 -6.57298)">
+<g id="hale" transform="translate(0 51.0647)">
+<path id="Vector" d="M23.9709 7.70984C12.1881 -0.145345 4.33292 -2.5019 1.19085 2.99673C-1.95123 8.49536 1.19085 17.9216 9.83156 20.7495C15.3302 22.6347 20.0433 20.2781 25.5419 16.3506L23.9709 7.70984Z" fill="#3E43B8"/>
+<path id="Vector_2" transform="translate(9.28955 7.00757)" d="M7.15601e-05 3.578e-05C5.49869 2.35659 10.2118 4.71316 15.7104 7.85522" stroke="#2D3191" stroke-width="1.57104" stroke-linecap="round"/>
+<path id="Vector_3" transform="translate(8 12)" d="M0 4.71311C6.28415 2.35656 10.9973 0.785519 16.4959 0" stroke="#2D3191" stroke-width="1.57104" stroke-linecap="round"/>
+</g>
+<path id="Vector_4" transform="translate(22 6.57295)" d="M6.88 2.15578C24.8946 -8.97958 46.6108 25.9727 74.5333 39.6778C119.253 65.8486 113.5 56.5 113.5 58.5C113.5 62 89.44 53.748 44.8485 85.1504C22.3303 94.5726 23.0618 100.962 8.7285 96.6001C-0.278786 89.4049 -0.557861 62.7226 0.342868 52.4438C1.2436 40.4519 2.37636 8.15174 6.88 2.15578Z" fill="#AEB3F0"/>
+<path id="Vector_5" transform="translate(26 17.0454)" d="M8.33306 12.197C17.7593 5.91281 23.5 -0.472413 31.5 0.027575C26.0014 11.339 26.7142 28.6929 27.971 40.4756C28.7565 52.2584 33.2869 68.1724 38 76.0276C30 80.0276 12.7175 93.0276 2.83453 87.0276C-5.02066 80.4292 5.85925 63.9538 6.64477 54.5276C17.1448 33.0276 4.40546 17.6956 8.33306 12.197Z" fill="#FFD52F"/>
+<path id="Vector_6" transform="translate(60.4069 22.573)" d="M4.09278 0C-0.0328484 14.0271 -1.05235 15.7898 1.09298 28.9918C2.24816 38.8933 -0.207488 64.7241 3.09302 70.5L12.0928 65.5C7.96714 53.1231 6.59527 47.2235 6.59527 36.4968C6.59527 23.2948 8.79228 13.601 12.0928 7L4.09278 0Z" fill="#FFD52F"/>
+<path id="Vector_7" transform="translate(71.2826 33.073)" d="M5.21729 0C0.986516 13.5385 -0.628772 25.6457 0.217382 37.4918C1.06354 48.4918 4.67882 45.9149 7.21729 50.9918L12.2173 48C8.83267 37 6.37883 26.4918 6.71729 15.4918C7.22499 1.95336 11.1711 11.5769 14.2173 6.5L5.21729 0Z" fill="#FFD52F"/>
+<path id="Vector_8" transform="translate(81.7174 42.0812)" d="M7.28247 0C0.782296 6.5 -0.717543 -1.00818 0.282581 11.9918C6.28258 19.9918 3.11605 33.5933 5.78271 36.9917L11.7827 33.9917C9.11605 27.1948 10.2846 24.4994 11.1735 17.0228C12.0624 9.54626 14.6158 8.21875 17.2825 5.5L7.28247 0Z" fill="#FFD52F"/>
+<path id="Vector_9" transform="matrix(-0.919354 0.393432 0.393432 0.919354 71.584 86.573)" d="M1.77575e-05 0.785511C1.57106 10.9973 12.4738 18.0768 21.9 20.4333C25.0421 21.2188 22.7801 19.638 21.209 16.4959C18.0669 10.2117 14.1394 4.71311 8.64073 -7.59924e-06L1.77575e-05 0.785511Z" fill="#FFD52F"/>
+<path id="Vector_10" transform="translate(14.01 10.748) rotate(-15.5003)" d="M0 36.1308C2.04461 28.242 9.2148 1.97408 17.8011 0.136736C26.3873 -1.70061 38.744 15.5481 40.218 17.7173C39.7836 17.078 11.1621 26.9441 0 36.1308Z" fill="#FFD52F"/>
+<path id="Vector_11" transform="translate(33 13.573)" d="M5.34153 10.6831C8.29157 10.6831 10.6831 8.29157 10.6831 5.34153C10.6831 2.39148 8.29157 0 5.34153 0C2.39148 0 0 2.39148 0 5.34153C0 8.29157 2.39148 10.6831 5.34153 10.6831Z" fill="#4147BE"/>
+<path id="Vector_12" transform="translate(36 16.573)" d="M2.51366 5.02732C3.90192 5.02732 5.02732 3.90192 5.02732 2.51366C5.02732 1.1254 3.90192 0 2.51366 0C1.1254 0 0 1.1254 0 2.51366C0 3.90192 1.1254 5.02732 2.51366 5.02732Z" fill="#20245F"/>
+<path id="Vector_13" transform="translate(97 67.573)" d="M0 0C2.35656 3.92759 7.85519 4.55601 10.526 0" stroke="#171717" stroke-width="1.41393" stroke-linecap="round"/>
+<path id="Vector_14" opacity="0.8" transform="translate(28 11.573)" d="M0.138962 20.9867C-0.541733 12.7845 1.3465 5.31481 4.31113 0" stroke="#FFF28A" stroke-width="1.88525" stroke-linecap="round"/>
+<g id="Frame_35" transform="translate(103.595 54.9302)">
+<g id="Frame_36" transform="translate(-12.5952 -1.35718)">
+<g id="Frame_38" transform="translate(0 -1)">
+</g>
+</g>
+<g id="Frame_37" transform="translate(-1.59521 -2.35718)">
+</g>
+<g id="__jne_venstre" transform="translate(-21.5952 -8.35718)">
+<g id="__jne" transform="translate(20.9444 6.44444)">
+<g id="Ellipse_4" filter="url(#filter0_i_130_539)" transform="translate(0.896132 0.0905762)">
+<circle cx="6.44444" cy="6.44444" r="6.44444" id="Ellipse_4_bg_0" fill="white">
+</circle>
+</g>
+<circle id="Ellipse_5" transform="translate(6.73248 4.76893)" cx="3.08566" cy="3.08566" r="3.08566" fill="black"/>
+<circle id="Ellipse_6" transform="translate(10.9396 7.01293)" cx="0.841543" cy="0.841543" r="0.841543" fill="white"/>
+<circle id="Ellipse_7" transform="translate(10.3795 6.73248)" cx="0.280514" cy="0.280514" r="0.280514" fill="white"/>
+<g id="Ellipse_4_2" filter="url(#filter1_i_130_539)" transform="translate(-10.9443 -0.444336)">
+<circle cx="6.80277" cy="6.80277" r="6.80277" id="Ellipse_4_2_bg_0" fill="white">
+</circle>
+</g>
+<circle id="Ellipse_5_2" transform="translate(-4.9917 3.80737)" cx="3.25723" cy="3.25723" r="3.25723" fill="black"/>
+<circle id="Ellipse_6_2" transform="translate(-0.147949 6.6543)" cx="0.888335" cy="0.888335" r="0.888335" fill="white"/>
+<circle id="Ellipse_7_2" transform="translate(-0.740234 6.35864)" cx="0.296112" cy="0.296112" r="0.296112" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_130_539" x="0" y="0" width="12.8887" height="13.4499" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.561029"/>
+<feGaussianBlur stdDeviation="0.561029"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_130_539"/>
+</filter>
+<filter id="filter1_i_130_539" x="0" y="0" width="13.6055" height="14.1978" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.592224"/>
+<feGaussianBlur stdDeviation="0.592224"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_130_539"/>
+</filter>
+</defs>
+</svg>

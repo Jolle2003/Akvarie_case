@@ -1,0 +1,175 @@
+.ocean {
+    background: linear-gradient(to bottom, #98d6ea,#6acdee, #00bfff, #008bba, #1c5264);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+
+}
+
+
+/*miderste sandbund*/
+.sand1 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 150px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test1 10s ease-in-out infinite alternate;
+}
+
+/*forreste sandbund*/
+
+.sand2 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 90px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test2 8s ease-in-out infinite alternate;  
+}
+
+
+
+
+/* Fiskens placering */
+.fish1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    scale: 1.0; /* Juster størrelsen efter behov */
+
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimLeft 12s linear infinite ;
+}
+
+.fish2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimRight 14s linear infinite ;
+
+}
+
+.fish3 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 12s linear infinite alternate; */
+    animation: swimRight 12s linear infinite ;
+
+}
+
+.fish4 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    scale: 1.2; /* Juster størrelsen efter behov */
+     /* animation: swim 10s linear infinite alternate; */
+    animation: swimLeft 10s linear infinite ;
+
+} 
+
+.fish5 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    scale: 1.5; /* Juster størrelsen efter behov */
+     /* animation: swim 10s linear infinite alternate; */
+    animation: swimRight 16s linear infinite ;
+
+} 
+
+
+
+.still_fish {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    scale: 1.5; /* Juster størrelsen efter behov */
+    transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
+}
+
+
+
+.tang_julie2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 600px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    
+}
+
+.snegl_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 50px;
+    height: 100px;
+    scale: 2.0; /* Juster størrelsen efter behov */
+    
+}
+
+.tang_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 200px;
+    height: 190px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; /* Sørg for, at tang er bag snegl */
+    
+}
+.coral_lilleorange {
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 280px;
+    scale: 1.5; /* Juster størrelsen efter behov */
+    
+    
+}
+
+
+
+/* Fiskens svømmebevægelse */
+@keyframes swimLeft {
+    0% {
+       
+        transform: translateX(calc(100vw + 180px));
+    }
+
+    100% {
+       
+        transform: translateX(-200px);
+    }
+}
+
+/* Fiskens svømmebevægelse */
+@keyframes swimRight {
+    0% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        
+        transform: translateX(calc(100vw + 180px));
+    }
+}
