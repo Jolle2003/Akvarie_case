@@ -136,6 +136,31 @@
     z-index: 999; /* Sørg for, at tang er bag snegl */
     
 }
+.coral_pink1{
+    position: absolute;
+    bottom: -6%;
+    right: 3%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 83%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_pink3{
+    position: absolute;
+    bottom: -5%;
+    right: 33%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
 .coral_lilleorange1 {
     position: absolute;
     bottom: 0;
@@ -211,23 +236,20 @@
 }
 .coral_lilla2{
     position: absolute;
-    bottom: -1;
-    right: 30%;
+    bottom: 0;
+    right: 77%;
     width: 100px;
     height: 280px;
     scale: 1.2; /* Juster størrelsen efter behov */
-}
+}   
 
-
-
-
-.coral_pink{
+.coral_lilla3{
     position: absolute;
-    bottom: -5%;
-    right: 83%;
+    bottom: 0;
+    right: 60%;
     width: 100px;
     height: 280px;
-    scale: 1.2; /* Juster størrelsen efter behov */
+    scale: 1.7; /* Juster størrelsen efter behov */
 }
 
 
