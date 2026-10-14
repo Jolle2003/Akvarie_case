@@ -81,6 +81,7 @@
     scale: 1.2; /* Juster størrelsen efter behov */
      /* animation: swim 10s linear infinite alternate; */
     animation: swimLeft 10s linear infinite ;
+    z-index: 5;
 
 } 
 
@@ -113,6 +114,7 @@
     width: 600px;
     height: 270px;
     scale: 0.8; /* Juster størrelsen efter behov */
+    z-index: 2;
     
 }
 
