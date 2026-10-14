@@ -57,31 +57,32 @@
    
 }
 
-.bobler1 {
+.Mal_en_fisk {
     position: absolute;
-    top: 55%;
-    right: 30%;
-    scale: 5; /* Juster størrelsen efter behov */
+    top: 23%;
+    right: 5%;
+    scale: 0.5; /* Juster størrelsen efter behov */
+}
+
+.fang_fisken {
+    position: absolute;
+    top: 23%;
+    right: 35%;
+    scale: 0.5; /* Juster størrelsen efter behov */
 }
 
 
-.bobler2 {
+.match_fisken {
     position: absolute;
-    top: 20%;
-    right: 30%;
-    scale: 5; /* Juster størrelsen efter behov */
+    top: 0.5%;
+    right: 5%;
+    scale: 0.5; /* Juster størrelsen efter behov */
 }
 
-.bobler3 {
+.fiskefakta_boble {
     position: absolute;
-    top: 20%;
-    right: 60%;
-    scale: 5; /* Juster størrelsen efter behov */
+    top: 0.5%;
+    right: 35%;
+    scale: 0.5; /* Juster størrelsen efter behov */
 }
 
-.bobler4 {
-    position: absolute;
-    top: 55%;
-    right: 60%;
-    scale: 5; /* Juster størrelsen efter behov */
-}

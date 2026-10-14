@@ -39,3 +39,21 @@
 
     animation: test2 8s ease-in-out infinite alternate;  
 } 
+
+
+
+.button_back {
+    position: absolute;
+    top: -12.5%;
+    right: 80%;
+    scale: 0.5; /* Juster størrelsen efter behov */
+   
+}
+
+
+.rævefjæs_boble {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
