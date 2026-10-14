@@ -136,17 +136,64 @@
     z-index: 999; /* Sørg for, at tang er bag snegl */
     
 }
-.coral_lilleorange {
+.coral_pink1{
+    position: absolute;
+    bottom: -6%;
+    right: 3%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 83%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_pink3{
+    position: absolute;
+    bottom: -5%;
+    right: 33%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_lilleorange1 {
     position: absolute;
     bottom: 0;
     right: 90%;
     width: 100px;
     height: 280px;
-    scale: 1.5; /* Juster størrelsen efter behov */
-    
-    
+    scale: 1.5; /* Juster størrelsen efter behov */   
 }
-.coral_red{
+.coral_lilleorange2 {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange3 {
+    position: absolute;
+    bottom: 0;
+    right: 38%;
+    width: 100px;
+    height: 280px;
+    scale: 0.8; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange4 {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */   
+}
+.coral_red1{
     position: absolute;
     bottom: 0;
     right: 10%;
@@ -154,8 +201,32 @@
     height: 280px;
     scale: 1.8; /* Juster størrelsen efter behov */
 }
+.coral_red2{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    width: 100px;
+    height: 280px;
+    scale: 0.3; /* Juster størrelsen efter behov */
+}
+.coral_red3{
+    position: absolute;
+    bottom: 0;
+    right: 70%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */
+}
 
-.coral_lilla{
+.coral_red4{
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 280px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+.coral_lilla1{
     position: absolute;
     bottom: 0;
     right: 20%;
@@ -163,14 +234,22 @@
     height: 280px;
     scale: 1.2; /* Juster størrelsen efter behov */
 }
-
-.coral_pink{
+.coral_lilla2{
     position: absolute;
-    bottom: -5%;
-    right: 83%;
+    bottom: 0;
+    right: 77%;
     width: 100px;
     height: 280px;
     scale: 1.2; /* Juster størrelsen efter behov */
+}   
+
+.coral_lilla3{
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    width: 100px;
+    height: 280px;
+    scale: 1.7; /* Juster størrelsen efter behov */
 }
 
 
