@@ -200,12 +200,13 @@
     width: 100px;
     height: 280px;
     scale: 1.8; /* Juster størrelsen efter behov */
+    z-index: 999; 
 }
 .coral_red2{
     position: absolute;
     bottom: 0;
     right: 15%;
-    width: 100px;
+    width: 100px;   
     height: 280px;
     scale: 0.3; /* Juster størrelsen efter behov */
 }
@@ -246,10 +247,11 @@
 .coral_lilla3{
     position: absolute;
     bottom: 0;
-    right: 60%;
+    right: 100%;
     width: 100px;
     height: 280px;
     scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; 
 }
 
 
