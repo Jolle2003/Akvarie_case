@@ -72,5 +72,10 @@
     scale: 5; /* Juster størrelsen efter behov */
 }
 
-
+.bobler3 {
+    position: absolute;
+    top: 20%;
+    right: 60%;
+    scale: 5; /* Juster størrelsen efter behov */
+}
 
