@@ -60,7 +60,7 @@
 .bobler1 {
     position: absolute;
     top: 55%;
-    right: 25%;
+    right: 30%;
     scale: 5; /* Juster størrelsen efter behov */
 }
 
@@ -68,7 +68,7 @@
 .bobler2 {
     position: absolute;
     top: 20%;
-    right: 25%;
+    right: 30%;
     scale: 5; /* Juster størrelsen efter behov */
 }
 
@@ -79,3 +79,9 @@
     scale: 5; /* Juster størrelsen efter behov */
 }
 
+.bobler4 {
+    position: absolute;
+    top: 55%;
+    right: 60%;
+    scale: 5; /* Juster størrelsen efter behov */
+}
