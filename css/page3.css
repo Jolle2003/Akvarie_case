@@ -49,3 +49,11 @@
     scale: 0.5; /* Juster størrelsen efter behov */
    
 }
+
+
+.rævefjæs_boble {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
