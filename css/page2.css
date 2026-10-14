@@ -67,8 +67,10 @@
 
 .bobler2 {
     position: absolute;
-    top: 55%;
+    top: 20%;
     right: 25%;
     scale: 5; /* Juster størrelsen efter behov */
 }
+
+
 
