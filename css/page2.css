@@ -56,3 +56,21 @@
     scale: 0.5; /* Juster størrelsen efter behov */
    
 }
+
+.bobler1 {
+    position: absolute;
+    top: 55%;
+    right: 25%;
+    scale: 5; /* Juster størrelsen efter behov */
+}
+
+
+.bobler2 {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    scale: 5; /* Juster størrelsen efter behov */
+}
+
+
+
