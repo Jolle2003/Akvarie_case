@@ -146,6 +146,25 @@
     
     
 }
+.coral_orange{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_lilla{
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+    
 
 
 
