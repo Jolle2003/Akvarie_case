@@ -310,3 +310,17 @@
     line-height: 1.5;
     margin: 0;
 }
+
+/* lydikon i boblerne. With og height for storrelse */
+.lydknap {
+    border: none;
+    background: transparent;
+    padding: 12px;
+    touch-action: manipulation;
+}
+
+.lydknap img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
