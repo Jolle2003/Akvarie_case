@@ -53,7 +53,7 @@
 .fiskefakta_text {
     position: absolute;
     top: 5%;
-    right: 50%;
+    right: 47%;
     scale: 3; /* Juster størrelsen efter behov */
     z-index: 100;
 }
