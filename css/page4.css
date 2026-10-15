@@ -50,7 +50,7 @@
    
 }
 
-.fiskefakta_text {
+.Match_fisken_text {
     position: absolute;
     top: 5%;
     right: 47%;
@@ -195,4 +195,6 @@
     scale: 1.7; /* Juster størrelsen efter behov */
    
 }
+
+
 
