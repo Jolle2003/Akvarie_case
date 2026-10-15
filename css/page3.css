@@ -54,54 +54,52 @@
 
 .turbosnegl_boble {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 40%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .kanariegylte_boble {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 50%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .sohal_kirurg_boble {
     position: absolute;
-    top: 40%;
-    right: 30%;
+    top: 30%;
+    right: 50%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .pincetfisk_boble {
     position: absolute;
-    top: 40%;
-    right: 20%;
+    top: 30%;
+    right: 40%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .rævefjæs_boble {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 60%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .nemo_boble {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 70%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .palet_kirurg_boble {
     position: absolute;
-    top: 40%;
-    right: 80%;
+    top: 30%;
+    right: 40%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
-
-
 
 
 
