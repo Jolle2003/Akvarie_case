@@ -252,7 +252,19 @@
     z-index: 999; 
 }
 
+.body {
+  font-family: "Barlow", sans-serif;
+}
 
+/* Brug også Barlow på knapper */
+.button,.button_back {
+  font-family: Barlow, sans-serif;
+}
+
+/* Fede overskrifter */
+.h1, .h2 {
+  font-weight: 500;
+}
 
 /* Fiskens svømmebevægelse */
 @keyframes swimLeft {
