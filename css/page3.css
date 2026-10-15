@@ -50,6 +50,14 @@
    
 }
 
+.fiskefakta_text {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+    scale: 3; /* Juster størrelsen efter behov */
+    z-index: 100;
+}
+
 .tang_julie2 {
     position: absolute;
     bottom: 0;
