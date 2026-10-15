@@ -114,7 +114,7 @@
     width: 600px;
     height: 270px;
     scale: 0.8; /* Juster størrelsen efter behov */
-    z-index: 2;
+    z-index: 0;
     
 }
 
@@ -145,7 +145,6 @@
     width: 200px;
     height: 210px;
     scale: 1.4; /* Juster størrelsen efter behov */
-    z-index: 0; /* Sørg for, at tang er bag snegl */
     
 }
 
