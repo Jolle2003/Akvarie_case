@@ -142,7 +142,6 @@
 } 
 
 
-
 .still_fish {
     position: absolute;
     top: 5%;
@@ -150,7 +149,6 @@
     scale: 1.5; /* Juster størrelsen efter behov */
     transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
 }
-
 
 
 .tang_julie2 {

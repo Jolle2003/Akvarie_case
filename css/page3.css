@@ -50,54 +50,195 @@
    
 }
 
+.tang_julie2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 600px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    
+    
+}
+
+
+
+.tang_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 200px;
+    height: 190px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+   
+    
+}
+.tang_julie3 {
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    width: 200px;
+    height: 210px;
+    scale: 1.4; /* Juster størrelsen efter behov */
+    
+    
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 77%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_lilleorange1 {
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 220px;
+    scale: 1.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange2 {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange3 {
+    position: absolute;
+    bottom: 0;
+    right: 37%;
+    width: 100px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange4 {
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    width: 100px;
+    height: 230px;
+    scale: 1.2; /* Juster størrelsen efter behov */  
+  
+}
+.coral_red1{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 100px;
+    height: 280px;
+    scale: 1.8; /* Juster størrelsen efter behov */
+   
+}
+.coral_red2{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    width: 100px;   
+    height: 280px;
+    scale: 0.3; /* Juster størrelsen efter behov */
+}
+.coral_red3{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    width: 100px;
+    height: 320px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+
+.coral_red4{
+    position: absolute;
+    bottom: 0;
+    right: 85%;
+    width: 100px;
+    height: 230px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+.coral_lilla1{
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_lilla2{
+    position: absolute;
+    bottom: 0;
+    right: 75%;
+    width: 100px;
+    height: 299px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+   
+}   
+
+.coral_lilla3{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 100px;
+    height: 280px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+   
+}
+
+
+
+
 
 
 .turbosnegl_boble {
     position: absolute;
-    top: 30%;
-    right: 40%;
+    top: 32%;
+    right: -12%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .kanariegylte_boble {
     position: absolute;
-    top: 30%;
-    right: 50%;
+    top: 32%;
+    right: -1%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .sohal_kirurg_boble {
     position: absolute;
-    top: 30%;
-    right: 50%;
+    top: 32%;
+    right: 10%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .pincetfisk_boble {
     position: absolute;
-    top: 30%;
-    right: 40%;
+    top: 32%;
+    right: 21%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .rævefjæs_boble {
     position: absolute;
-    top: 30%;
-    right: 60%;
+    top: 32%;
+    right: 32%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .nemo_boble {
     position: absolute;
-    top: 30%;
-    right: 70%;
+    top: 32%;
+    right: 43%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
 .palet_kirurg_boble {
     position: absolute;
-    top: 30%;
-    right: 40%;
+    top: 32%;
+    right: 54%;
     scale: 0.2; /* Juster størrelsen efter behov */
 }
 
@@ -106,7 +247,7 @@
 /* Hele området med fisk og faktaboble */
 #fishfacts {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
