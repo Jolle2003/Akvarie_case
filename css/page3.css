@@ -51,9 +51,123 @@
 }
 
 
-.rævefjæs_boble {
+
+.turbosnegl_boble {
     position: absolute;
     top: 40%;
     right: 40%;
     scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.kanariegylte_boble {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.sohal_kirurg_boble {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.pincetfisk_boble {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.rævefjæs_boble {
+    position: absolute;
+    top: 40%;
+    right: 60%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.nemo_boble {
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+.palet_kirurg_boble {
+    position: absolute;
+    top: 40%;
+    right: 80%;
+    scale: 0.2; /* Juster størrelsen efter behov */
+}
+
+
+
+
+
+/* Hele området med fisk og faktaboble */
+#fishfacts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    z-index: 10;
+}
+
+/* Placerer fisk og boble ved siden af hinanden */
+.fishfacts-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Området med fisken */
+.facts-fish {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fiskens størrelse */
+.facts-fish img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Faktaboblen */
+.factsbox {
+    width: 500px;
+    height: 500px;
+
+    background-image: url("../Billeder/Bobler.svg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 85px;
+    box-sizing: border-box;
+}
+
+/* Fiskens navn */
+.factsbox h2 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Faktateksten */
+.factsbox p {
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin: 0;
 }
