@@ -26,6 +26,7 @@ const fisk = [
     {
         id: 5,
         navn: "Rævefjæs",
+        image: "Billeder/ræve_fjæs_line.svg",
         tekst: "Hej! Jeg hedder rævefjæs. Jeg er gul med et sort-hvidt ansigt og en flad krop med en spids snude. Jeg kan blive 25–30 cm lang. Min livret er alger og planter. Jeg bor ved koralrev i det vestlige Stillehav og svømmer alene eller med en ven!"
     },
 
@@ -41,3 +42,18 @@ const fisk = [
         tekst: "Hej! Jeg er en paletkirurg. Jeg er blå med en gul hale, sorte mønstre og en flad, oval krop. Jeg kan blive 30 cm lang. Min livret er alger og små havdyr. Jeg bor ved koralrev i Indo-Stillehavet og elsker at svømme rundt alene eller med andre fisk!"
     }
 ];
+
+    function showFish(fishId) {
+       let factsContainer = document.getElementById("fishfacts"); 
+
+       factsContainer.innerHTML = ` <div>
+            <img src="${fisk[fishId - 1].image}" alt="${fisk[fishId - 1].navn}">
+            <h2>${fisk[fishId - 1].navn}</h2>
+            <p>${fisk[fishId - 1].tekst}</p>
+        </div>
+        
+        
+        
+        `;
+    }
+
