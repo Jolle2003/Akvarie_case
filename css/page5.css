@@ -1,0 +1,208 @@
+.ocean {
+    background: linear-gradient(to bottom, #98d6ea,#6acdee, #00bfff, #008bba, #1c5264);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
+
+}
+
+
+/*miderste sandbund*/
+.sand1 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 150px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test1 10s ease-in-out infinite alternate;
+}
+
+/*forreste sandbund*/
+
+.sand2 {
+    background: linear-gradient(to bottom, #f4e1c1, #e6c9a8, #d9b08f, #cc9776, #bf7f5d);
+    height: 90px;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+
+
+    border-top: 1px solid #bf7f5d;
+    border-radius: 50% 50% 0 0;
+
+    animation: test2 8s ease-in-out infinite alternate;  
+}
+
+.button_back {
+    position: absolute;
+    top: -12.5%;
+    right: 80%;
+    scale: 0.5; /* Juster størrelsen efter behov */
+   
+}
+
+.tang_julie2 {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 600px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    z-index: 0;
+    
+}
+
+.snegl_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 50px;
+    height: 100px;
+    scale: 2.0; /* Juster størrelsen efter behov */
+    
+}
+
+.tang_julie {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 200px;
+    height: 190px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; /* Sørg for, at tang er bag snegl */
+    
+}
+.tang_julie3 {
+    position: absolute;
+    bottom: 0;
+    right: 60%;
+    width: 200px;
+    height: 210px;
+    scale: 1.4; /* Juster størrelsen efter behov */
+    
+}
+
+.coral_pink2{
+    position: absolute;
+    bottom: -5%;
+    right: 77%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+
+.coral_lilleorange1 {
+    position: absolute;
+    bottom: 0;
+    right: 90%;
+    width: 100px;
+    height: 220px;
+    scale: 1.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange2 {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100px;
+    height: 280px;
+    scale: 0.5; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange3 {
+    position: absolute;
+    bottom: 0;
+    right: 37%;
+    width: 100px;
+    height: 270px;
+    scale: 0.8; /* Juster størrelsen efter behov */   
+}
+.coral_lilleorange4 {
+    position: absolute;
+    bottom: 0;
+    right: 26%;
+    width: 100px;
+    height: 230px;
+    scale: 1.2; /* Juster størrelsen efter behov */  
+    z-index: 99; 
+}
+.coral_red1{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 100px;
+    height: 280px;
+    scale: 1.8; /* Juster størrelsen efter behov */
+    z-index: 999; 
+}
+.coral_red2{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    width: 100px;   
+    height: 280px;
+    scale: 0.3; /* Juster størrelsen efter behov */
+}
+.coral_red3{
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+    width: 100px;
+    height: 320px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+
+.coral_red4{
+    position: absolute;
+    bottom: 0;
+    right: 85%;
+    width: 100px;
+    height: 230px;
+    scale: 0.8; /* Juster størrelsen efter behov */
+}
+.coral_lilla1{
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    width: 100px;
+    height: 280px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+}
+.coral_lilla2{
+    position: absolute;
+    bottom: 0;
+    right: 75%;
+    width: 100px;
+    height: 299px;
+    scale: 1.2; /* Juster størrelsen efter behov */
+    z-index: 99;
+}   
+
+.coral_lilla3{
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    width: 100px;
+    height: 280px;
+    scale: 1.7; /* Juster størrelsen efter behov */
+    z-index: 999; 
+}
+
+.body {
+  font-family: "Barlow", sans-serif;
+}
+
+/* Brug også Barlow på knapper */
+.button,.button_back {
+  font-family: Barlow, sans-serif;
+}
+
+/* Fede overskrifter */
+.h1, .h2 {
+  font-weight: 500;
+}
