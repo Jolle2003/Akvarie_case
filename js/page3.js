@@ -3,7 +3,7 @@ const fisk = [
         id: 1,
         navn: "Turbo-snegl",
         image:"billeder/Snegl_julie.svg",
-        tekst: "Hej! Jeg er en turbo-snegl. Jeg er brun, grå og grøn med en stribet spiralskal og en blød krop. Jeg bliver 3–7 cm stor. Min livret er alger, og jeg bor på sten i det varme hav. Jeg kan ikke svømme, men kravler langsomt rundt!",
+        tekst: "Hej! Jeg er en turbo-snegl.\nJeg er brun, grå og grøn med en stribet spiralskal og en blød krop. \nJeg bliver 3–7 cm stor. \nMin livret er alger, og jeg bor på sten i det varme hav. \nJeg kan ikke svømme, men kravler langsomt rundt!",
         lyd: "Lyd/turbolyd.mp3"
     },
 
@@ -11,7 +11,7 @@ const fisk = [
         id: 2,
         navn: "Kanariegylte",
         image:"billeder/Kanariegylte-thomas.svg",
-        tekst: "Hej! Jeg er en kanariegylte. Jeg er gul med små mørke pletter og har en lang, slank krop. Jeg kan blive 12 cm lang. Min livret er små krebsdyr og orme. Jeg bor ved koralrev i Det Indiske Ocean og Stillehavet og elsker at svømme og gemme mig i sandet!",
+        tekst: "Hej! Jeg er en kanariegylte. \nJeg er gul med små mørke pletter og har en lang, slank krop. \nJeg kan blive 12 cm lang. \nMin livret er små krebsdyr og orme. \nJeg bor ved koralrev i Det Indiske Ocean og Stillehavet og elsker at svømme og gemme mig i sandet!",
         lyd: "Lyd/gyltelyd.mp3"
     },
 
@@ -19,7 +19,7 @@ const fisk = [
         id: 3,
         navn: "Sohal-kirurg",
         image:"billeder/sohal_kirurg_thomas.svg",
-        tekst: "Hej! Jeg er en sohal-kirurg. Jeg er grå, hvid og blå med mørke striber og en flad, oval krop. Jeg kan blive 40 cm lang. Min livret er alger, og jeg bor ved koralrev i Rødehavet og Det Indiske Ocean. Jeg svømmer hurtigt og passer på mit område!",
+        tekst: "Hej! Jeg er en sohal-kirurg.\nJeg er grå, hvid og blå med mørke striber og en flad, oval krop. \nJeg kan blive 40 cm lang.\nMin livret er alger, og jeg bor ved koralrev i Rødehavet og Det Indiske Ocean. \nJeg svømmer hurtigt og passer på mit område!",
         lyd: "Lyd/sohallyd.mp3"
     },
 
@@ -27,7 +27,7 @@ const fisk = [
         id: 4,
         navn: "Pincetfisk",
         image:"billeder/Pincetfisk_julie.svg",
-        tekst: "Hej! Jeg er en pincetfisk. Jeg er gul, hvid og sort med en mørk plet ved halen. Jeg har en flad krop og en lang snude og kan blive 22 cm lang. Min livret er små krebsdyr og orme. Jeg bor ved koralrev i Det Indiske Ocean og Stillehavet, hvor jeg svømmer roligt og finder mad i sprækker!",
+        tekst: "Hej! Jeg er en pincetfisk. \nJeg er gul, hvid og sort med en mørk plet ved halen. \nJeg har en flad krop og en lang snude og kan blive 22 cm lang. \nMin livret er små krebsdyr og orme. \nJeg bor ved koralrev i Det Indiske Ocean og Stillehavet, hvor jeg svømmer roligt og finder mad i sprækker!",
         lyd: "Lyd/pincetlyd.mp3"
     },
 
@@ -35,15 +35,15 @@ const fisk = [
         id: 5,
         navn: "Rævefjæs",
         image: "Billeder/ræve_fjæs_line.svg",
-        tekst: "Hej! Jeg hedder rævefjæs. Jeg er gul med et sort-hvidt ansigt og en flad krop med en spids snude. Jeg kan blive 25–30 cm lang. Min livret er alger og planter. Jeg bor ved koralrev i det vestlige Stillehav og svømmer alene eller med en ven!",
+        tekst: "Hej! Jeg hedder rævefjæs. \nJeg er gul med et sort-hvidt ansigt og en flad krop med en spids snude. \nJeg kan blive 25–30 cm lang. \nMin livret er alger og planter. \nJeg bor ved koralrev i det vestlige Stillehav og svømmer alene eller med en ven!",
         lyd: "Lyd/ravefjas.mp3"
     },
 
     {
         id: 6,
-        navn: "Nemo",
+        navn: "Klovnefisk",
         image: "Billeder/Nemo_julie.svg",
-        tekst: "Hej! Jeg hedder Nemo. Jeg er orange med tre hvide striber og har en lille, oval krop. Jeg kan blive 11 cm lang. Min livret er små krebsdyr og plankton. Jeg bor ved koralrev i Stillehavet og svømmer små ture tæt på min søanemone!",
+        tekst: "Hej! Jeg hedder Nemo og er en klovnefisk. \nJeg er orange med tre hvide striber og har en lille, oval krop. \nJeg kan blive 11 cm lang. \nMin livret er små krebsdyr og plankton. \nJeg bor ved koralrev i Stillehavet og svømmer små ture tæt på min søanemone!",
         lyd: "Lyd/nemolyd.mp3"
     },
 
@@ -51,7 +51,7 @@ const fisk = [
         id: 7,
         navn: "Paletkirurg",
         image: "Billeder/palet_kirurg_line.svg",
-        tekst: "Hej! Jeg er en paletkirurg. Jeg er blå med en gul hale, sorte mønstre og en flad, oval krop. Jeg kan blive 30 cm lang. Min livret er alger og små havdyr. Jeg bor ved koralrev i Indo-Stillehavet og elsker at svømme rundt alene eller med andre fisk!",
+        tekst: "Hej! Jeg er en paletkirurg. \nJeg er blå med en gul hale, sorte mønstre og en flad, oval krop. \nJeg kan blive 30 cm lang. \nMin livret er alger og små havdyr. \nJeg bor ved koralrev i Indo-Stillehavet og elsker at svømme rundt alene eller med andre fisk!",
         lyd: "Lyd/paletlyd.mp3"
     }
 ];
@@ -72,7 +72,7 @@ const fisk = [
             <!-- Boblen til højre -->
             <div class="factsbox">
                 <h2>${valgtFisk.navn}</h2>
-                <p>${valgtFisk.tekst}</p>
+                <p>${valgtFisk.tekst.replace(/\n/g, "<br>")}</p>
 
                 <button
                     class="lydknap"
