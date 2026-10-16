@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
     function afspilLyd() {
         nemoLyd.play();
         nemoLyd.onended = function () {
-            setTimeout(afspilLyd, 10000);
+            setTimeout(afspilLyd, 7000);
         };
     }
 
