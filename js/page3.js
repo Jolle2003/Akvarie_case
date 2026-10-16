@@ -36,7 +36,7 @@ const fisk = [
         navn: "Rævefjæs",
         image: "Billeder/ræve_fjæs_line.svg",
         tekst: "Hej! Jeg hedder rævefjæs. \nJeg er gul med et sort-hvidt ansigt og en flad krop med en spids snude. \nJeg kan blive 25–30 cm lang. \nMin livret er alger og planter. \nJeg bor ved koralrev i det vestlige Stillehav og svømmer alene eller med en ven!",
-        lyd: "Lyd/ravefjas.mp3"
+        lyd: "Lyd/ravefjaslyd.mp3"
     },
 
     {
