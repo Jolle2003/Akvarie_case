@@ -56,6 +56,8 @@
     right: 47%;
     scale: 3; /* Juster størrelsen efter behov */
     z-index: 100;
+    font-family: Barlow, sans-serif;
+    font-weight: bold;
 }
 
 .tang_julie2 {
@@ -260,6 +262,7 @@
     transform: translate(-50%, -50%);
     width: 90%;
     z-index: 10;
+    
 }
 
 /* Placerer fisk og boble ved siden af hinanden */
@@ -309,19 +312,21 @@
     font-size: 32px;
     color: black;
     margin-bottom: 15px;
+    font-family: Barlow, sans-serif;
 }
 
 /* Faktateksten */
 .factsbox p {
     font-size: 18px;
     color: black;
-    line-height: 1.5;
+    line-height: 1.15;
     margin: 0;
-}
+    font-family: Barlow, sans-serif;
+}   
 
 
 .body {
-  font-family: "Barlow", sans-serif;
+  font-family: Barlow, sans-serif;
 }
 
 /* Brug også Barlow på knapper */
