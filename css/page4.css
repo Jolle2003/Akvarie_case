@@ -1,10 +1,26 @@
+/* Baggrundsfarve for hele siden */
 .ocean {
     background: linear-gradient(to bottom, #98d6ea,#6acdee, #00bfff, #008bba, #1c5264);
     height: 100vh;
     width: 100%;
     margin: 0;
+}
 
+.ocean {
+  position: relative;
+  isolation: isolate;
+  height: auto;
+  min-height: 100vh;
+}
 
+/* Baggrunden skal ikke optage plads over spillet */
+.ocean_background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 
@@ -196,20 +212,37 @@
    
 }
 
+/* Bredde og højde inkluderer kanter og padding. Det gør størrelserne lettere at styre. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  color: #000;
+}
+
+/* Knapper bruger samme skrifttype som resten af siden */
+button {
+  font-family: "Barlow", sans-serif;
+}
+
 
 .body {
   font-family: "Barlow", sans-serif;
 }
 
-/* Brug også Barlow på knapper */
+/* Bruger også Barlow på knapper */
 .button, .button_back {
-  font-family: Barlow, sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 /* Fede overskrifter */
 .h1, .h2 {
   font-weight: 500;
 }
+
 
 /* Centrér spillet på siden */
 main {
@@ -226,54 +259,97 @@ main {
   min-height: 1.5em;
 
   font-size: clamp(20px, 2.5vw, 36px);
-  font-weight: 700;
+  font-weight: 500;
 }
 
-/* Fire kolonner giver to rækker med fire kort */
+.vendespil {
+  position: relative;
+
+  /* Spillet ligger foran sand og koraller */
+  z-index: 10;
+
+  width: min(82%, 1100px);
+  margin: auto;
+  padding: 30px 0 40px;
+
+  text-align: center;
+}
+
+.vendespil h1 {
+  margin: 0;
+
+  font-size: clamp(36px, 5vw, 72px);
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+#besked {
+  margin: 12px 0 24px;
+
+  /* Reservér plads, når beskeden ændres */
+  min-height: 1.5em;
+
+  font-size: clamp(20px, 2.3vw, 32px);
+  font-weight: 600;
+}
+
+
+/* Fire bobler i hver række */
 #spilleplade {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(12px, 2vw, 30px);
 
-  width: 82%;
-  max-width: 960px;
-  margin: auto;
+  /* Fire lige brede kolonner */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  /* Afstand mellem boblerne */
+  gap: clamp(12px, 2vw, 26px);
+
+  width: 100%;
+    max-width: 1100px;
 }
 
-/* Den klikbare knap omkring hver boble */
+
+
+/* Kortet er en knap, så det kan vendes med mus eller finger */
 .kort {
   position: relative;
 
-  /* Giver samme højde og bredde */
-  aspect-ratio: 1;
+  /* Samme proportioner som fiskeboble-SVG'er */
+  aspect-ratio: 844 / 762;
 
+  /* Fjerner knappens almindelige udseende */
   padding: 0;
   border: none;
   background: transparent;
 
-  /* Giver dybde under vendingen */
+  /* Giver dybde, når kortet drejer */
   perspective: 1000px;
+
   cursor: pointer;
 }
 
-/* Indeholder begge sider og drejer dem sammen */
+/* Her drejer begge sider sammen */
 .kort-indhold {
   position: absolute;
   inset: 0;
 
   transform-style: preserve-3d;
+
+  /* Vendingen tager 0,6 sekunder */
   transition: transform 0.6s ease-in-out;
 }
 
-/* JavaScript tilføjer vendt, når kortet åbnes */
+/* JavaScript tilføjer klassen vendt */
 .kort.vendt .kort-indhold {
   transform: rotateY(180deg);
 }
 
-/* Fælles udseende for begge sider */
+
+/* Begge sider fylder hele kortet */
+
 .bagside,
 .forside {
-  /* Placér siderne præcis oven på hinanden */
+  /* Siderne ligger præcis oven på hinanden */
   position: absolute;
   inset: 0;
 
@@ -281,111 +357,46 @@ main {
   align-items: center;
   justify-content: center;
 
-  /* Gør kortet rundt */
-  border-radius: 50%;
-  border: 3px solid #b5f5ff;
+  /* SVG-filerne indeholder allerede boblerne. Derfor skal der ikke være ekstra bobler her. */
+  border: none;
+  background: transparent;
 
-  /* Tegn boblen med lys midte og blå yderkant */
-  background: radial-gradient(
-    circle at 35% 28%,
-    rgba(255, 255, 255, 0.95),
-    rgba(215, 250, 255, 0.85) 40%,
-    rgba(145, 225, 242, 0.8) 75%,
-    rgba(74, 203, 230, 0.9)
-  );
-
-  /* Lys indvendigt og lidt skygge udvendigt */
-  box-shadow:
-    inset 0 0 14px rgba(255, 255, 255, 0.9),
-    inset -8px -10px 18px rgba(25, 166, 200, 0.2),
-    0 5px 10px rgba(0, 99, 140, 0.15);
-
-  /* Skjul den side, der vender væk */
+  /* Skjuler den side, der vender væk fra os */
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
-/* Den hvide lysrefleks på boblen */
-.bagside::before,
-.forside::before {
-  content: "";
-
-  position: absolute;
-  top: 10%;
-  left: 15%;
-
-  width: 28%;
-  height: 10%;
-
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.95);
-  transform: rotate(-40deg);
-
-  /* Refleksen må ikke blokere for tryk */
-  pointer-events: none;
-}
-
-/* Spørgsmålstegnet på bagsiden */
-.bagside {
-  color: #075ca5;
-  font-size: clamp(48px, 8vw, 120px);
-  font-weight: 700;
-}
-
-/* Fiskesiden starter vendt væk fra os */
+/* Fiskesiden starter vendt væk */
 .forside {
   transform: rotateY(180deg);
 }
 
-/*
-  Jeres nuværende SVG-filer indeholder hele fiskeboblen.
-  Derfor fylder billedet næsten hele kortet.
-*/
+/* Begge billeder fylder kortet */
+.bagside img,
 .forside img {
   display: block;
-  width: 96%;
-  height: 96%;
+  width: 100%;
+  height: 100%;
+
+  /* Vis hele billedet uden at strække det */
   object-fit: contain;
+
+  pointer-events: none;
 }
 
-/* Markér fundne par med en grøn kant */
-.kort.fundet .forside {
-  border-color: #76d800;
-}
 
-/* Tilføj et flueben på fundne par */
-.kort.fundet .forside::after {
-  content: "✓";
 
-  position: absolute;
-  right: 0;
-  bottom: 0;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 26%;
-  height: 26%;
-
-  border: 2px solid #bcff68;
-  border-radius: 50%;
-  background: #48bd00;
-
-  color: #fff;
-  font-size: clamp(20px, 3vw, 40px);
-  font-weight: 700;
-}
+/* Antal par fundet */
 
 #antal-par {
-  margin: 20px 0 12px;
-  font-size: clamp(22px, 2.5vw, 36px);
+  margin: 18px 0 12px;
+
+  font-size: clamp(22px, 2.2vw, 32px);
   font-weight: 700;
 }
 
-/* Knappen nederst */
 #spil-igen {
-  padding: 12px 48px;
+  padding: 12px 40px;
 
   border: 3px solid #b5f5ff;
   border-radius: 50px;
@@ -400,37 +411,55 @@ main {
     inset 0 0 10px white,
     0 4px 8px rgba(0, 99, 140, 0.2);
 
-  font-family: inherit;
-  font-size: clamp(22px, 2.8vw, 40px);
+  font-size: clamp(22px, 2.5vw, 34px);
   font-weight: 700;
   color: #000;
 
   cursor: pointer;
 }
 
-/* Markering ved brug af tastatur */
-button:focus-visible {
-  outline: 4px solid #133b75;
-  outline-offset: 5px;
-  border-radius: 50%;
+
+/* Placér spillets elementer under hinanden */
+.vendespil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
-/* Brug to kolonner på små skærme */
-@media (max-width: 600px) {
-  main {
-    padding: 20px 0;
-  }
-
-  #spilleplade {
-    width: 88%;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-  }
+/* Overskrift og besked skal ikke placeres absolut */
+.vendespil h1, #besked, #antal-par, #spil-igen {
+  position: static;
+  inset: auto;
+  transform: none;
+  scale: 1;
+  margin: 0;
 }
 
-/* Fjern bevægelsen, hvis brugeren ønsker det */
-@media (prefers-reduced-motion: reduce) {
-  .kort-indhold {
-    transition: none;
-  }
+/* Overskrift */
+.vendespil h1 {
+  position: static;
+  transform: none;
+  scale: 1;
+  margin: 0;
+  font-size: clamp(36px, 5vw, 72px);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Beskeden står separat under overskriften */
+#besked {
+  font-size: 28px;
+  line-height: 1.4;
+  min-height: 1.4em;
+  margin: 0;
+  scale: 1;
+  transform: none;
+  position: static;
+  font-weight: 700;
+}
+
+/* Luft mellem beskeden og boblerne */
+#spilleplade {
+  margin: 8px auto;
 }
