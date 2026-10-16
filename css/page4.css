@@ -211,4 +211,226 @@
   font-weight: 500;
 }
 
+/* Centrér spillet på siden */
+main {
+  width: min(94%, 1200px);
+  margin: auto;
+  padding: 30px 0;
+  text-align: center;
+}
 
+#besked {
+  margin: 8px 0 24px;
+
+  /* Reservér plads til beskeden */
+  min-height: 1.5em;
+
+  font-size: clamp(20px, 2.5vw, 36px);
+  font-weight: 700;
+}
+
+/* Fire kolonner giver to rækker med fire kort */
+#spilleplade {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 30px);
+
+  width: 82%;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Den klikbare knap omkring hver boble */
+.kort {
+  position: relative;
+
+  /* Giver samme højde og bredde */
+  aspect-ratio: 1;
+
+  padding: 0;
+  border: none;
+  background: transparent;
+
+  /* Giver dybde under vendingen */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+/* Indeholder begge sider og drejer dem sammen */
+.kort-indhold {
+  position: absolute;
+  inset: 0;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* JavaScript tilføjer vendt, når kortet åbnes */
+.kort.vendt .kort-indhold {
+  transform: rotateY(180deg);
+}
+
+/* Fælles udseende for begge sider */
+.bagside,
+.forside {
+  /* Placér siderne præcis oven på hinanden */
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Gør kortet rundt */
+  border-radius: 50%;
+  border: 3px solid #b5f5ff;
+
+  /* Tegn boblen med lys midte og blå yderkant */
+  background: radial-gradient(
+    circle at 35% 28%,
+    rgba(255, 255, 255, 0.95),
+    rgba(215, 250, 255, 0.85) 40%,
+    rgba(145, 225, 242, 0.8) 75%,
+    rgba(74, 203, 230, 0.9)
+  );
+
+  /* Lys indvendigt og lidt skygge udvendigt */
+  box-shadow:
+    inset 0 0 14px rgba(255, 255, 255, 0.9),
+    inset -8px -10px 18px rgba(25, 166, 200, 0.2),
+    0 5px 10px rgba(0, 99, 140, 0.15);
+
+  /* Skjul den side, der vender væk */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Den hvide lysrefleks på boblen */
+.bagside::before,
+.forside::before {
+  content: "";
+
+  position: absolute;
+  top: 10%;
+  left: 15%;
+
+  width: 28%;
+  height: 10%;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  transform: rotate(-40deg);
+
+  /* Refleksen må ikke blokere for tryk */
+  pointer-events: none;
+}
+
+/* Spørgsmålstegnet på bagsiden */
+.bagside {
+  color: #075ca5;
+  font-size: clamp(48px, 8vw, 120px);
+  font-weight: 700;
+}
+
+/* Fiskesiden starter vendt væk fra os */
+.forside {
+  transform: rotateY(180deg);
+}
+
+/*
+  Jeres nuværende SVG-filer indeholder hele fiskeboblen.
+  Derfor fylder billedet næsten hele kortet.
+*/
+.forside img {
+  display: block;
+  width: 96%;
+  height: 96%;
+  object-fit: contain;
+}
+
+/* Markér fundne par med en grøn kant */
+.kort.fundet .forside {
+  border-color: #76d800;
+}
+
+/* Tilføj et flueben på fundne par */
+.kort.fundet .forside::after {
+  content: "✓";
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 26%;
+  height: 26%;
+
+  border: 2px solid #bcff68;
+  border-radius: 50%;
+  background: #48bd00;
+
+  color: #fff;
+  font-size: clamp(20px, 3vw, 40px);
+  font-weight: 700;
+}
+
+#antal-par {
+  margin: 20px 0 12px;
+  font-size: clamp(22px, 2.5vw, 36px);
+  font-weight: 700;
+}
+
+/* Knappen nederst */
+#spil-igen {
+  padding: 12px 48px;
+
+  border: 3px solid #b5f5ff;
+  border-radius: 50px;
+
+  background: linear-gradient(
+    #edfdff,
+    #b6f0fa 55%,
+    #71d8ed
+  );
+
+  box-shadow:
+    inset 0 0 10px white,
+    0 4px 8px rgba(0, 99, 140, 0.2);
+
+  font-family: inherit;
+  font-size: clamp(22px, 2.8vw, 40px);
+  font-weight: 700;
+  color: #000;
+
+  cursor: pointer;
+}
+
+/* Markering ved brug af tastatur */
+button:focus-visible {
+  outline: 4px solid #133b75;
+  outline-offset: 5px;
+  border-radius: 50%;
+}
+
+/* Brug to kolonner på små skærme */
+@media (max-width: 600px) {
+  main {
+    padding: 20px 0;
+  }
+
+  #spilleplade {
+    width: 88%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+/* Fjern bevægelsen, hvis brugeren ønsker det */
+@media (prefers-reduced-motion: reduce) {
+  .kort-indhold {
+    transition: none;
+  }
+}
