@@ -68,7 +68,7 @@
 .fang_fisken {
     position: absolute;
     top: 5%;
-    right: 7%;
+    right: 6%;
     scale: 0.45; /* Juster størrelsen efter behov */
     z-index: 100;
 }
