@@ -74,22 +74,37 @@ const fisk = [
                 <h2>${valgtFisk.navn}</h2>
                 <p>${valgtFisk.tekst.replace(/\n/g, "<br>")}</p>
 
-                <button
-                    class="lydknap"
-                    type="button"
-                    onclick="playFishAudio(${valgtFisk.id})">
-                    <img src="Billeder/Lydknap.svg" alt="lydknap">
-                </button> 
-
-
-
-
-
+            
+                <div class="lydknapper">
+                    <!-- lydknap -->
+                    <button
+                        class="lydknap"
+                        type="button"
+                        onclick="playFishAudio(${valgtFisk.id})">
+                        <img src="Billeder/Lydknap.svg" alt="lydknap">
+                    </button> 
+                 
+                    <!-- pauseknap -->
+                    <button
+                        class="pauseknap"
+                        type="button"
+                        onclick="pauseFishAudio()">
+                        <img src="Billeder/pauseknap.svg" alt="pauseknap">
+                    </button>
+                </div>
             </div>
 
         </div>
     `;
 }
+
+function pauseFishAudio() {
+    if (aktuelLyd) {
+        aktuelLyd.pause();
+    }
+}
+
+
 /** Afspil lyden **/
 
 let aktuelLyd = null;

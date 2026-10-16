@@ -336,9 +336,10 @@
 
 /* lydikon i boblerne. With og height for storrelse */
 .lydknap {
+    transform: translateX(0px);
     border: none;
     background: transparent;
-    padding: 12px;
+    padding: 0px;
     touch-action: manipulation;
 }
 
@@ -348,3 +349,23 @@
     height: 60px;
 }
 
+.pauseknap {
+    transform: translateX(10px);
+    border: none;
+    background: transparent;
+    padding: 12px;
+    touch-action: manipulation;
+}
+
+.pauseknap img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.lydknapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
