@@ -99,10 +99,11 @@
 
 .still_fish {
     position: absolute;
-    top: 5%;
-    left: 90%;
-    scale: 1.5; /* Juster størrelsen efter behov */
+    top: -30%;
+    left: -30%;
+    scale: 0.5; /* Juster størrelsen efter behov */
     transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
+    z-index: 999;
 }
 
 

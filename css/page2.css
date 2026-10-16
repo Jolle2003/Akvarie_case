@@ -41,12 +41,12 @@
 }
 
 
-.still_fish {
+.still_fish2 {
     position: absolute;
-    top: 5%;
-    left: 90%;
-    scale: 1.5; /* Juster størrelsen efter behov */
-    transform: scaleX(-1); /* Vend fisken om, så den kigger mod venstre */
+    top: -2%;
+    left: 68%;
+    scale: 0.8; /* Juster størrelsen efter behov */
+    transform: scaleX(1); /* Vend fisken om, så den kigger mod venstre */
 }
 
 .button_back {
