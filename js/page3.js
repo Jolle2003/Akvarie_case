@@ -72,7 +72,7 @@ const fisk = [
             <!-- Boblen til højre -->
             <div class="factsbox">
                 <h2>${valgtFisk.navn}</h2>
-                <p>${valgtFisk.tekst.replace(/\n/g, "<br>")}</p>
+                <p>${valgtFisk.tekst.replaceAll("\n", "<br>")}</p> 
 
             
                 <div class="lydknapper">
