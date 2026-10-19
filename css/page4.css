@@ -464,3 +464,12 @@ main {
   margin: 8px auto;
 }
 
+#spilleplade {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 26px);
+
+  width: 100%;
+  max-width: min(900px, 105vh);
+  margin: auto;
+}
